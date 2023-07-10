@@ -1,0 +1,76 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+.header-hero-wrapper
+{
+    background-color: #172937;
+}
+
+
+.header
+{
+    display: flex;
+}
+
+
+.header-logo
+{
+    width: 50px;
+}
+
+
+.header-links 
+{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+
+.header-links a
+{
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero
+{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+.car-site-card
+{
+    align-self: center;
+    margin-right: 20px;
+}
+
+
+.header-img
+{
+    width: 300px;
+}
+
+
+.car-images
+{
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+img
+{
+    width: 200px;
+}
